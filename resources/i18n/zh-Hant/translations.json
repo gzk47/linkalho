@@ -1,0 +1,55 @@
+{
+    "restore_backup_view": {
+        "title": "恢復備份",
+        "not_found_dialog_hint": "未找到備份文件！",
+        "not_found_dialog_text": "如需恢復，請將備份文件放入以下路徑\n{}\n\n請確保備份文件有效，恢復將覆蓋主機分區文件，可能導致Switch無法啟動！",
+        "not_found_dialog_btn": "關閉",
+        "warning": "恢復此備份將覆蓋所有文件！\n（存檔數據將保留）\n\n請確保備份文件有效，恢復將覆蓋主機分區文件，可能導致Switch無法啟動！",
+        "working": "恢復中...",
+        "complete": "備份恢復成功！"
+    },
+    "create_backup_view": {
+        "title": "手動建立備份",
+        "warning": "所有關聯和解除關聯操作在修改前都會自動生成備份！\n\n僅當你需要手動建立備份時，才使用此選項。",
+        "working": "備份中...",
+        "complete": "備份建立成功！"
+    },
+    "link_accounts_view": {
+        "title": "關聯所選賬號",
+        "warning": "關聯賬號將覆蓋所有之前的關聯記錄。\n（存檔數據將保留）\n\n如果所選賬號中存在已關聯NNID的賬號，原有NNID關聯將被覆蓋！",
+        "working": "關聯中...",
+        "complete": "賬號關聯成功！"
+    },
+    "unlink_accounts_view": {
+        "title": "解除所選賬號關聯",
+        "warning": "解除關聯將變更用戶賬號配置。\n（存檔數據將保留）\n\n如果所選賬號中存在已關聯NNID的賬號，原有NNID關聯將被清除！",
+        "working": "解除關聯中...",
+        "complete": "賬號解除關聯成功！"
+    },
+    "country_select_view": {
+        "title": "選擇關聯賬號所屬地區"
+    },
+    "account_select_view": {
+        "title": "選擇要關聯/解除關聯的賬號",
+        "select_all": "全選",
+        "unselect_all": "取消全選",
+        "selected_count": "已選 {}/{} 個",
+        "extra_info": "找到 {} 個賬號 {}\n重啟至引導程序：{}",
+        "reboot_payload_disabled": "已禁用",
+        "reboot_payload_inactive": "未激活（未找到 {}）",
+        "reboot_payload_active": "已激活"
+    },
+    "account_list_item": {
+        "linked": "已關聯",
+        "not_linked": "未關聯"
+    },
+    "confirm_view": {
+        "continue": "繼續",
+        "back": "返回",
+        "reboot": "重啟",
+        "reboot_to_payload": "重啟至引導程序"
+    },
+    "errors": {
+        "no_accounts_selected": "未選擇任何賬號！"
+    }
+}
